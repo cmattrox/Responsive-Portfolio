@@ -1,0 +1,133 @@
+h1 {
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 10px 15px 10px;
+    width: 190px;
+    float: left;
+}
+
+header{
+    display: inline-block;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+nav{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 10px;
+    float: right;
+    padding-top: 25px;
+}
+
+#about{
+    padding: 10px 20px 10px 20px;
+    color: grey;
+    border-right: 2px solid #cccccc;
+}
+
+#portfolio{
+    padding: 10px 20px 10px 20px;
+    color: grey;
+    border-right: 2px solid #cccccc
+}
+
+#contact{
+    padding: 10px 20px 10px 20px;
+    color: grey;
+}
+
+h2{
+    color: #4aaaa5;
+    font-size: 30px;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#profpic{
+    width: 200px;
+    height: 250px;
+}
+
+.portpic{
+    width: 150px;
+    padding: 15px;
+    height: 150px;
+}
+
+footer{
+    background-color: #666666;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding: 50px 0 0 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    font-size: 10px;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+body{
+    background-image: url("../images/ep_naturalwhite/back.png");
+
+}
+
+p{
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#container_2{
+    border: 2px solid #dddddd;
+    margin-top: 200px;
+    margin:0 auto;
+    width: 920px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.container_1{
+    margin: 0 auto;
+    width: 960px;
+    background-color: #ffffff;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix_2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#portpic_1{
+    float: left;
+}
+
+#portpic_3{
+    float: left;
+}
+
+.txt1, .txt2, .txt3, .txt4, .txt5{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 45px;
+    bottom: 10px;
+    left: 10px;
+}
+.img1, .img2, .img3, .img4, .img5{
+    position: relative;
+    float: left;
+}
+.txt1{
+
+}
